@@ -1,0 +1,144 @@
+.myCalc {
+  position: relative;
+  margin-left: 40%; }
+  .myCalc #display {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -235px;
+    width: 230px;
+    height: 65px;
+    font-size: 42px; }
+  .myCalc .buttons button {
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 610px;
+    border: none; }
+  .myCalc .buttons #num1 {
+    margin-top: -84px;
+    margin-left: 2px;
+    font-size: 15px;
+    height: 42px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #num2 {
+    margin-top: -84px;
+    margin-left: 60px;
+    font-size: 15px;
+    height: 42px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #num3 {
+    margin-top: -84px;
+    margin-left: 118px;
+    font-size: 15px;
+    height: 42px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #num4 {
+    margin-top: -126px;
+    margin-left: 2px;
+    font-size: 15px;
+    height: 42px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #num5 {
+    margin-top: -126px;
+    margin-left: 60px;
+    font-size: 15px;
+    height: 42px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #num6 {
+    margin-top: -126px;
+    margin-left: 118px;
+    font-size: 15px;
+    height: 42px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #num7 {
+    margin-top: -168px;
+    margin-left: 2px;
+    font-size: 15px;
+    height: 42px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #num8 {
+    margin-left: 60px;
+    margin-top: -168px;
+    font-size: 15px;
+    height: 42px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #num9 {
+    margin-top: -168px;
+    margin-left: 118px;
+    font-size: 15px;
+    height: 42px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #num0 {
+    margin-left: 60px;
+    margin-top: -42px;
+    font-size: 15px;
+    height: 37px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #plus {
+    margin-top: -84px;
+    margin-left: 176px;
+    font-size: 20px;
+    width: 58px;
+    color: black;
+    height: 42px; }
+  .myCalc .buttons #minus {
+    margin-top: -126px;
+    margin-left: 176px;
+    font-size: 20px;
+    width: 58px;
+    color: black;
+    height: 42px; }
+  .myCalc .buttons #devide {
+    margin-top: -205px;
+    margin-left: 176px;
+    height: 37px;
+    font-size: 20px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #multiply {
+    margin-top: -168px;
+    margin-left: 176px;
+    font-size: 20px;
+    width: 58px;
+    color: black;
+    height: 42px; }
+  .myCalc .buttons #result {
+    margin-left: 176px;
+    margin-top: -42px;
+    height: 37px;
+    font-size: 20px;
+    width: 58px;
+    color: black; }
+  .myCalc .buttons #ce {
+    margin-top: -205px;
+    margin-left: 1px;
+    font-size: 1em;
+    height: 40px;
+    width: 60px;
+    color: black; }
+  .myCalc .buttons #c {
+    margin-top: -205px;
+    margin-left: 61px;
+    font-size: 1em;
+    height: 40px;
+    width: 55px;
+    color: black;}
+  .myCalc .buttons .memory:hover {
+    background-color: aqua;
+    border: 1px solid purple; }
+  .myCalc .buttons .numbers:hover {
+    background-color: aqua;
+    border: 1px solid olive; }
+  .myCalc .buttons .operations:hover {
+    background-color: aqua;
+    border: 1px solid purple;
+  }

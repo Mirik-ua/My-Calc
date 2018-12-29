@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class="myCalc">
+	<img src="img/Calc.png">
+		<input disabled type="text" name="" id="display" value="0" dir="rtl">
+	<div class="buttons">
+		<button class="numbers" id="num1" onclick="numberPress(number.value)">1</button>
+		<button class="numbers" id="num2" onclick="numberPress(number.value)">2</button>
+		<button class="numbers" id="num3" onclick="numberPress(number.value)">3</button>
+		<button class="numbers" id="num4" onclick="numberPress(number.value)">4</button>
+		<button class="numbers" id="num5" onclick="numberPress(number.value)">5</button>
+		<button class="numbers" id="num6" onclick="numberPress(number.value)">6</button>
+		<button class="numbers" id="num7" onclick="numberPress(number.value)">7</button>
+		<button class="numbers" id="num8" onclick="numberPress(number.value)">8</button>
+		<button class="numbers" id="num9" onclick="numberPress(number.value)">9</button>
+		<button class="numbers" id="num0" onclick="numberPress(number.value)">0</button>
+
+		<button class="operations" id="plus" 	   onclick="operation()">+</button>
+		<button class="operations" id="minus" 	 onclick="operation()">-</button>
+		<button class="operations" id="devide"	 onclick="operation()">/</button>
+		<button class="operations" id="multiply" onclick="operation()">*</button>
+		<button class="operations" id="result" 	 onclick="operation()">=</button>
+		<button class="memory" 		 id="c"   onclick="memory()">c</button>
+		<button class="memory" 		 id="ce"  onclick="memory()">ce</button>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
